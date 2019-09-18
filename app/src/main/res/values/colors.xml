@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="blue500">#03A9F4</color>
+    <color name="blue700">#0288D1</color>
+    <color name="blueAccent">#4FC3F7</color>
+
+    <color name="red500">#F44336</color>
+    <color name="red700">#D32F2F</color>
+    <color name="redAccent">#E57373</color>
+
+    <color name="green500">#ff3a8f1f</color>
+    <color name="green700">#ff33831a</color>
+    <color name="greenAccent">#ff3cca43</color>
+
+    <color name="orange500">#fffd7300</color>
+    <color name="orange700">#ff9b5415</color>
+    <color name="orangeAccent">#eccb9b</color>
+
+    <color name="purple500">#9C27B0</color>
+    <color name="purple700">#7B1FA2</color>
+    <color name="purpleAccent">#BA68C8</color>
+
+    <color name="pink500">#ed2f95</color>
+    <color name="pink700">#9f367b</color>
+    <color name="pinkAccent">#e757c1</color>
+
+    <color name="colorPrimary">@color/blue500</color>
+    <color name="colorPrimaryDark">@color/blue700</color>
+    <color name="colorAccent">@color/blueAccent</color>
+
+    <color name="dark500">#3c414f</color>
+    <color name="dark700">#2d2f3c</color>
+    <color name="darkAccent">#52c68f</color>
+
+    <color name="textColorDark">#fafafa</color>
+
+</resources>
