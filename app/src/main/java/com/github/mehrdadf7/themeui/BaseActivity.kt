@@ -34,6 +34,8 @@ open class BaseActivity : AppCompatActivity() {
         }
     }
 
+    //THIS COMMENT IS JUST FOR A TEST !!!
+
     @SuppressLint("RestrictedApi", "Recycle")
     private fun getColors() {
         val typedValue = TypedValue()
