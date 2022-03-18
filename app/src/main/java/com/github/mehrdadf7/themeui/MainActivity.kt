@@ -2,6 +2,8 @@ package com.github.mehrdadf7.themeui
 
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.activity_main.*
@@ -35,6 +37,11 @@ class MainActivity : BaseActivity() {
             override fun onThemeChange() {
                 recreate()
             }
+        }
+
+        val bt:Button=findViewById(R.id.bt_test)
+        bt.setOnClickListener {
+            Toast.makeText(this,"TESTING BUTTON FOR GIT PRACTICE",Toast.LENGTH_LONG).show()
         }
 
     }

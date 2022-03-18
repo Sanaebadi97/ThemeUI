@@ -7,15 +7,14 @@
     tools:context=".MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_posts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:background="#eee"
         android:clipToPadding="false"
         android:paddingRight="8dp"
         android:paddingBottom="8dp"
-        tools:listitem="@layout/layout_post_row"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/rv_posts"
-        />
+        tools:listitem="@layout/layout_post_row" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_setting"
@@ -28,5 +27,17 @@
         android:tint="@android:color/white"
         app:srcCompat="@drawable/ic_color_lens_black_24dp"
         />
+
+    <Button
+        android:id="@+id/bt_test"
+        android:layout_width="102dp"
+        android:layout_height="38dp"
+        android:text="Click"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toStartOf="@+id/fab_setting" />
 
 </RelativeLayout>
